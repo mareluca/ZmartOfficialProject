@@ -4,6 +4,70 @@
 @titleCardColor: #4e677a;
 
 
+.head-content-wrapper {
+  background: white;
+  height: 150px;
+  .navbar {
+    background: white;
+    border: 0;
+    margin: 0;
+    height: 150px;
+    .container-fluid {
+      .container {
+        .row {
+          #imagelogo {
+            position: relative;
+            top: -20px;
+            img {
+
+              height: 150px;
+              width: 150px;
+              transform: rotateX(45deg);
+            }
+
+          }
+          #menubar {
+            width: 100%;
+            position: relative;
+            top: -50px;
+            z-index: 10;
+            background: white;
+            .navbar-header {
+              .navbar-brand {
+                font-size: 30pt;
+                transform: rotateX(45deg);
+                padding-left: 26px;
+                font-family: Roboto;
+                font-weight: bold;
+                color: #dd6414;
+              }
+            }
+            #navbar3 {
+              border: 0;
+
+              font-size: 18pt;
+              cursor: pointer;
+              .nav{
+
+                li{
+                  font-family: 'Montserrat';
+
+                  text-align: center;
+                  a{
+                    &:hover{
+                      color: #ff7f00;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 /*ID1 DIV*/
 #id1 {
   padding: 0;
