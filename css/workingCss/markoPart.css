@@ -69,3 +69,81 @@
   line-height: 20px;
   letter-spacing: 1px;
 }
+.footer-content-wrapper #r1 {
+  height: 118px;
+  background-color: #ff9900;
+}
+.footer-content-wrapper #r2 {
+  height: 328px;
+  background-color: #333333;
+  padding: 0;
+}
+.footer-content-wrapper #r2 .container {
+  padding: 0;
+}
+.footer-content-wrapper #r2 .container .row #logo img {
+  margin-top: 38px;
+  margin-right: 0px;
+  transform: rotateX(40deg);
+  width: 150px;
+  height: 150px;
+}
+.footer-content-wrapper #r2 .container .row #logo #zmart {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #db6414;
+  position: relative;
+  top: -30px;
+  left: 5px;
+  transform: rotateX(40deg);
+}
+.footer-content-wrapper #r2 .container .row #menu {
+  padding: 0px;
+  color: #8a8a8a;
+}
+.footer-content-wrapper #r2 .container .row #menu ul {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 33px;
+  padding-left: 50px;
+  margin-top: 60px;
+  font-size: 23px;
+  list-style-type: none;
+}
+.footer-content-wrapper #r2 .container .row #menu ul li .fb {
+  width: 30px;
+  height: 30px;
+}
+.footer-content-wrapper #r2 .container .row #menu ul li .fb:hover {
+  content: url("../img/facebookHover.png");
+}
+.footer-content-wrapper #r2 .container .row #menu ul li .tw {
+  width: 30px;
+  height: 30px;
+}
+.footer-content-wrapper #r2 .container .row #menu ul li .tw:hover {
+  content: url("../img/twitterHover.png");
+}
+.footer-content-wrapper #r2 .container .row #menu ul li:hover {
+  color: #ff7f00;
+  cursor: pointer;
+}
+.footer-content-wrapper #r2 .container .row #menu:nth-child(3) ul {
+  padding-left: 40px;
+}
+.footer-content-wrapper #r2 .container .row #menu:nth-child(4) ul {
+  padding-left: 2px;
+}
+.footer-content-wrapper #r3 {
+  height: 54px;
+  background-color: #202020;
+}
+.footer-content-wrapper #r3 .container {
+  padding: 0;
+}
+.footer-content-wrapper #r3 .container .row .col-lg-12 {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #737373;
+}
