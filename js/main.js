@@ -19,9 +19,9 @@
     var contentTwo = $('.contentTwo');
     var contentThree = $('.contentThree');
 
-    $(document).ready(function() {
 
-    });
+
+
 
     headerContainer.load('header.html', function() {
         var mobileMenuTrigger = $('.navigation-trigger a:last-child');
@@ -49,7 +49,7 @@
 
 
     contentOne.load('workingHtml/anaPart.html',function(){
-        $(".owl-carousel").owlCarousel(
+        var owl = $(".owl-carousel").owlCarousel(
             {
                 autoWidth         : true,
                 loop              : true,
@@ -57,11 +57,16 @@
                 autoplay          : true,
                 autoplayTimeout   : 3000,
                 autoplayHoverPause: true,
-                items             : 1
+                items             : 1,
+                onInitialized:owlInitialized
             }
         );
     });
-
+    
+    function owlInitialized(){
+        console.log('vidimo se');
+        console.log($(this)[0]._items);
+    }
 
     contentTwo.load('workingHtml/radenkoPart.html',function(){
 
