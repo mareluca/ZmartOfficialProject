@@ -43,7 +43,7 @@
         }
     });
 
-    contentOne.load('workingHtml/anaPart.html');
+   // contentOne.load('workingHtml/anaPart.html');
     contentTwo.load('workingHtml/radenkoPart.html');
     contentThree.load('workingHtml/markoPart.html');
 
