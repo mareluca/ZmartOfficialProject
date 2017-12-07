@@ -65,16 +65,19 @@
 }
 
 /*ID1 DIV*/
+
+
 #id1 {
   padding: 0;
   height: 685px;
   overflow: hidden;
 
   .container {
-    position: relative;
+    position: absolute;
     bottom: 430px;
     text-align: right;
     z-index: 3;
+
     .owl-text {
       font-size: 58pt;
       color: white;
@@ -83,10 +86,11 @@
     }
   }
 
-  .owl-carousel {
+  #owl-demo {
+
     .item {
       img {
-        object-fit: cover;
+        //object-fit: cover;
         width: 100%;
         height: 1000px;
 
@@ -94,6 +98,7 @@
     }
   }
 }
+
 
 /*ID2 DIV*/
 #id2 {

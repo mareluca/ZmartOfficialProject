@@ -48,7 +48,7 @@
 <!--Ana's Part-->
 <!-- First DIV-->
 <div class="container-fluid" id="id1">
-    <div class="owl-carousel">
+    <div id="owl-demo" class="owl-carousel">
         <div class="item"><img src="img/slide1.png"></div>
         <div class="item"><img src="img/slide2.png"></div>
         <div class="item"><img src="img/slide3.jpg"></div>
@@ -178,18 +178,23 @@
 <!-- Owl carousel-->
 <script>
     $(document).ready(function() {
-        $(".owl-carousel").owlCarousel(
-            {
 
-                loop              : true,
-                smartSpeed        : 1500,
-                autoplay          : true,
-                autoplayTimeout   : 3000,
-                autoplayHoverPause: true,
-                items             : 1
+        $("#owl-demo").owlCarousel({
 
-            }
-        );
+            loop           : true,
+            slideSpeed     : 300,
+            paginationSpeed: 400,
+
+            // "singleItem:true" is a shortcut for:
+             items : 1,
+             itemsDesktop : false,
+             itemsDesktopSmall : false,
+             itemsTablet: false,
+             itemsMobile : false
+
+        })
+        ;
+
     });
 </script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -197,9 +202,9 @@
     (function(b, o, i, l, e, r) {
         b.GoogleAnalyticsObject = l;
         b[l] || (b[l] =
-                function() {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
         b[l].l = +new Date;
         e = o.createElement(i);
         r = o.getElementsByTagName(i)[0];
