@@ -19,6 +19,10 @@
     var contentTwo = $('.contentTwo');
     var contentThree = $('.contentThree');
 
+    $(document).ready(function() {
+
+    });
+
     headerContainer.load('header.html', function() {
         var mobileMenuTrigger = $('.navigation-trigger a:last-child');
         if(utilities.IsExisty(mobileMenuTrigger)){
@@ -43,8 +47,25 @@
         }
     });
 
-    contentOne.load('workingHtml/anaPart.html');
-    contentTwo.load('workingHtml/radenkoPart.html');
+
+    contentOne.load('workingHtml/anaPart.html',function(){
+        $(".owl-carousel").owlCarousel(
+            {
+                autoWidth         : true,
+                loop              : true,
+                smartSpeed        : 1500,
+                autoplay          : true,
+                autoplayTimeout   : 3000,
+                autoplayHoverPause: true,
+                items             : 1
+            }
+        );
+    });
+
+
+    contentTwo.load('workingHtml/radenkoPart.html',function(){
+
+    });
     contentThree.load('workingHtml/markoPart.html');
 
     footerContainer.load('footer.html');
