@@ -3,65 +3,30 @@
 @cardsColor: #74a6cb;
 @titleCardColor: #4e677a;
 
-
-.head-content-wrapper {
-  background: white;
-  height: 150px;
-  .navbar {
-    background: white;
-    border: 0;
-    margin: 0;
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  .desktop-navigation {
     height: 150px;
-    .container-fluid {
-      .container {
-        .row {
-          #imagelogo {
-            position: relative;
-            top: -20px;
-            img {
+    width: 100%;
+    background: chocolate;
 
-              height: 150px;
-              width: 150px;
-              transform: rotateX(45deg);
-            }
+    .container-logo {
+      height: 150px;
+      float: left;
+      width: 20%;
+      background: cornflowerblue;
+    }
 
-          }
-          #menubar {
-            width: 100%;
-            position: relative;
-            top: -50px;
-            z-index: 10;
-            background: white;
-            .navbar-header {
-              .navbar-brand {
-                font-size: 30pt;
-                transform: rotateX(45deg);
-                padding-left: 26px;
-                font-family: Roboto;
-                font-weight: bold;
-                color: #dd6414;
-              }
-            }
-            #navbar3 {
-              border: 0;
-
-              font-size: 18pt;
-              cursor: pointer;
-              .nav{
-
-                li{
-                  font-family: 'Montserrat';
-
-                  text-align: center;
-                  a{
-                    &:hover{
-                      color: #ff7f00;
-                    }
-                  }
-                }
-              }
-            }
-          }
+    .desktop-link-list-container {
+      height: 150px;
+      float: left;
+      width: 80%;
+      background: forestgreen;
+      ul{
+        li{
+          display: inline;
         }
       }
     }
@@ -71,10 +36,10 @@
 /*ID1 DIV*/
 #id1 {
   padding: 0;
-  height: 685px;
+  max-height: 685px;
   overflow: hidden;
-  .owl-carousel{
-    .item{
+  .owl-carousel {
+    .item {
       color: white;
     }
   }
@@ -91,7 +56,7 @@
     margin-right: auto;
     color: #fff;
     text-align: right;
-    top:650px;
+    top: 650px;
     padding-bottom: 50px;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -102,7 +67,6 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-
 
 }
 
