@@ -7,7 +7,7 @@
 "use strict";
 (function() {
     var mobileMenuTrigger = $('.navigation-trigger a:last-child');
-
+    var owl;
     /**
      * events
      */
@@ -49,18 +49,12 @@
 
 
     contentOne.load('workingHtml/anaPart.html',function(){
-        var owl = $(".owl-carousel").owlCarousel(
-            {
-                autoWidth         : true,
-                loop              : true,
-                smartSpeed        : 1500,
-                autoplay          : true,
-                autoplayTimeout   : 3000,
-                autoplayHoverPause: true,
-                items             : 1,
-                onInitialized:owlInitialized
-            }
-        );
+        owl = $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+           // nav:true,
+            items:1
+        });
     });
     
     function owlInitialized(){
