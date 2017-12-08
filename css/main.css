@@ -732,10 +732,143 @@ a:active {
   height: 55px;
 }
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .head-content-wrapper .navbar .container-fluid .container .row #menubar #navbar3 {
+    font-size: 13pt;
+  }
+  #id3 {
+    height: 2000px;
+  }
+  #id3 .container .row {
+    padding-top: 80px;
+  }
+  #id3 .container .row .col-lg-4 {
+    margin-bottom: 80px;
+  }
+  #id3 .container .row .col-lg-4 .jumbotron {
+    padding: 0;
+  }
+  #id3 .container .row .col-lg-4 .jumbotron .card svg {
+    width: 30%;
+    height: 30%;
+  }
+  #id4 {
+    height: 600px;
+  }
+  #id4 .container {
+    margin-top: 50px;
+  }
+  #id5 {
+    height: 1500px;
+  }
+  #id5 .container #r1 .col-lg-12 h1 {
+    font-size: 55px;
+  }
+  #id5 .container #r2 .col-lg-9 {
+    padding-left: 25px;
+  }
+  #id5 .container #r3 .col-lg-9 {
+    padding-left: 25px;
+  }
+  #id7 {
+    padding-bottom: 50px;
+  }
+  .footer-content-wrapper #r2 {
+    height: 600px;
+  }
+  .footer-content-wrapper #r2 .container .row {
+    text-align: center;
+    margin: 0;
+  }
+  .footer-content-wrapper #r2 .container .row #menu ul {
+    padding: 0;
+    margin: 0;
+  }
+  .footer-content-wrapper #r2 .container .row #menu:nth-child(3) ul {
+    padding-left: 0px;
+  }
+  .footer-content-wrapper #r3 .container .row .col-lg-12 {
+    text-align: center;
+  }
+}
 /* Medium Devices, Desktops */
 /*Ipad Landscape */
 /*Ipad Portrait*/
 /* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .head-content-wrapper {
+    height: 100px;
+  }
+  .head-content-wrapper .navbar .container-fluid {
+    padding: 0;
+  }
+  .head-content-wrapper .navbar .container-fluid .container .row #imagelogo {
+    display: none;
+  }
+  .head-content-wrapper .navbar .container-fluid .container .row #menubar {
+    top: 30px;
+  }
+  #id3 {
+    height: 1800px;
+  }
+  #id4 {
+    height: 700px;
+    text-align: center;
+  }
+  #id5 {
+    text-align: center;
+    height: 1800px;
+  }
+  #id6 .container .row .col-lg-12 {
+    text-align: center;
+  }
+  #id6 .container .row .col-lg-6 {
+    text-align: center;
+  }
+  #id6 .container .row .col-lg-3 {
+    text-align: center;
+  }
+  #id7 {
+    text-align: center;
+  }
+  .footer-content-wrapper #r1 {
+    height: 50px;
+  }
+}
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #id1 {
+    height: 400px;
+  }
+  #id1 .owl-carousel .item img {
+    object-fit: cover;
+    height: 400px;
+  }
+  #id3 {
+    height: 2100px;
+  }
+  #id3 .container .row .col-lg-4 .jumbotron .card svg {
+    width: 50%;
+    height: 50%;
+  }
+  #id4 {
+    height: 1000px;
+  }
+  #id5 {
+    height: 2000px;
+  }
+  #id5 .container #r1 .col-lg-12 h1 {
+    font-size: 35px;
+  }
+  #id6 {
+    height: 300px;
+  }
+  #id6 .container .row .col-lg-12 h1 {
+    font-size: 22pt;
+  }
+  #id6 .container .row .col-lg-6 p {
+    display: none;
+  }
+}
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
