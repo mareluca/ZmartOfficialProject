@@ -18,7 +18,7 @@
     var contentOne = $('.contentOne');
     var contentTwo = $('.contentTwo');
     var contentThree = $('.contentThree');
-
+    var owl;
 
 
 
@@ -48,21 +48,25 @@
     });
 
 
-    contentOne.load('workingHtml/anaPart.html',function(){
-        var owl = $(".owl-carousel").owlCarousel(
-            {
-                autoWidth         : true,
-                loop              : true,
-                smartSpeed        : 1500,
-                autoplay          : true,
-                autoplayTimeout   : 3000,
-                autoplayHoverPause: true,
-                items             : 1,
-                onInitialized:owlInitialized
-            }
-        );
+    contentOne.load('workingHtml/anaPart.html',function() {
+        owl = $('.owl-carousel').owlCarousel({
+            loop  : true,
+            margin: 10,
+            nav   : false,
+            items : 1,
+            slideSpeed: 300,
+            singleItem: true,
+            autoPlay: 4000,
+            dots: false,
+            autoplay:true
+
+
+        });
     });
-    
+
+    <!--navigation false-->
+
+
     function owlInitialized(){
         console.log('vidimo se');
         console.log($(this)[0]._items);

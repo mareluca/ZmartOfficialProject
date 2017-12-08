@@ -196,25 +196,41 @@ a:active {
   height: 685px;
   overflow: hidden;
 }
-#id1 .owl-carousel {
-  background-color: yellow;
-}
-#id1 .owl-carousel .item img {
-  width: 100%;
-  height: 1000px;
-}
-#id1 .container {
-  position: relative;
-  bottom: 430px;
-  text-align: right;
-  z-index: 3;
-}
-#id1 .container .owl-text {
-  font-size: 58pt;
+#id1 .owl-carousel .item {
   color: white;
+}
+#id1 .owl-text-overlay {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-align: right;
+  top: 650px;
+  padding-bottom: 50px;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
+  border-radius: 15px 50px 30px 5px;
 }
+#id1 h2.owl-title {
+  font-size: 58pt;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*.owl-carousel{
+  .item{
+    min-height: 500px;
+    background-color: blue;
+    color: white;
+  }
+}
+
+
+
 /*ID2 DIV*/
 #id2 {
   background: #4c4c4c;
