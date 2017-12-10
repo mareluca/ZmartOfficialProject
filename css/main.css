@@ -152,22 +152,49 @@ a:active {
 #header .desktop-navigation {
   height: 150px;
   width: 100%;
-  background: chocolate;
 }
 #header .desktop-navigation .container-logo {
   height: 150px;
   float: left;
   width: 20%;
-  background: cornflowerblue;
+  text-align: center;
+}
+#header .desktop-navigation .container-logo a img {
+  position: relative;
+  top: -15px;
+  height: 150px;
+  width: 150px;
+  transform: rotateX(40deg);
+}
+#header .desktop-navigation .container-logo #zmart {
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  top: -50px;
+  font-size: 28pt;
+  font-weight: bold;
+  transform: rotateX(40deg);
+  color: #ff8c00;
 }
 #header .desktop-navigation .desktop-link-list-container {
+  text-align: right;
   height: 150px;
   float: left;
   width: 80%;
-  background: forestgreen;
+}
+#header .desktop-navigation .desktop-link-list-container ul {
+  margin-top: 110px;
 }
 #header .desktop-navigation .desktop-link-list-container ul li {
   display: inline;
+  padding-left: 30px;
+}
+#header .desktop-navigation .desktop-link-list-container ul li a {
+  font-family: Montserrat, sans-serif;
+  color: #4c4c4c;
+  font-size: 18pt;
+}
+#header .desktop-navigation .desktop-link-list-container ul li a:hover {
+  color: #ff8c00;
 }
 /*ID1 DIV*/
 #id1 {
@@ -714,6 +741,15 @@ a:active {
 @media only screen and (max-width: 1200px) {
   #header {
     width: 970px;
+  }
+  #header .desktop-navigation .desktop-link-list-container ul {
+    margin-right: 50px;
+  }
+  #header .desktop-navigation .desktop-link-list-container ul li {
+    padding-left: 20px;
+  }
+  #header .desktop-navigation .desktop-link-list-container ul li a {
+    font-size: 13pt;
   }
   #id3 {
     height: 2000px;

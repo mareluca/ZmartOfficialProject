@@ -111,8 +111,21 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  #header{
+  #header {
     width: 970px;
+    .desktop-navigation {
+      .desktop-link-list-container {
+        ul {
+          margin-right: 50px;
+          li {
+            padding-left: 20px;
+            a {
+      font-size: 13pt;
+            }
+          }
+        }
+      }
+    }
   }
 
   #id3 {
@@ -212,9 +225,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-#header{
-  width: 750px;
-}
+  #header {
+    width: 750px;
+  }
 }
 
 /*Ipad Landscape */
@@ -228,9 +241,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
-  #header{
+  #header {
     width: auto;
-    .desktop-navigation{
+    .desktop-navigation {
       display: none;
     }
   }

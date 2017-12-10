@@ -10,23 +10,51 @@
   .desktop-navigation {
     height: 150px;
     width: 100%;
-    background: chocolate;
-
     .container-logo {
       height: 150px;
       float: left;
       width: 20%;
-      background: cornflowerblue;
+
+      text-align: center;
+      a {
+        img {
+          position: relative;
+          top: -15px;
+          height: 150px;
+          width: 150px;
+          transform: rotateX(40deg);
+        }
+      }
+      #zmart {
+        font-family: Montserrat, sans-serif;
+        position: relative;
+        top: -50px;
+        font-size: 28pt;
+        font-weight: bold;
+        transform: rotateX(40deg);
+        color: #ff8c00;
+      }
     }
 
     .desktop-link-list-container {
+      text-align: right;
       height: 150px;
       float: left;
       width: 80%;
-      background: forestgreen;
-      ul{
-        li{
+      ul {
+        margin-top: 110px;
+        li {
           display: inline;
+          padding-left: 30px;
+          a {
+            font-family: Montserrat, sans-serif;
+            color: #4c4c4c;
+            font-size: 18pt;
+            &:hover{
+              color: #ff8c00;
+            }
+          }
+
         }
       }
     }
