@@ -50,7 +50,7 @@
             font-family: Montserrat, sans-serif;
             color: #4c4c4c;
             font-size: 18pt;
-            &:hover{
+            &:hover {
               color: #ff8c00;
             }
           }
@@ -65,11 +65,40 @@
 #id1 {
   padding: 0;
   max-height: 685px;
-  overflow: hidden;
+  //overflow: hidden;
   .owl-carousel {
+
     .item {
       color: white;
     }
+
+    .owl-nav {
+      margin-top: 0px;
+      .owl-prev {
+
+        background: transparent;
+       position: absolute;
+        bottom: 45%;
+        left: 5%;
+        .fa {
+
+          font-size: 22pt;
+        }
+      }
+
+      .owl-next {
+
+        background: transparent;
+        position: absolute;
+        bottom: 45%;
+        right: 5%;
+        .fa {
+       
+          font-size: 22pt;
+        }
+      }
+    }
+
   }
 
   .owl-text-overlay {

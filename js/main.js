@@ -52,16 +52,18 @@
         owl = $('.owl-carousel').owlCarousel({
             loop  : true,
             margin: 10,
-            nav   : false,
+            nav   : true,
             items : 1,
             slideSpeed: 300,
             singleItem: true,
             autoPlay: 4000,
             dots: false,
-            autoplay:true
-
+            autoplay:true,
+            navText : ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>']
 
         });
+
+
     });
 
     <!--navigation false-->

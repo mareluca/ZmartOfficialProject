@@ -55,10 +55,30 @@
 #id1 {
   padding: 0;
   max-height: 685px;
-  overflow: hidden;
 }
 #id1 .owl-carousel .item {
   color: white;
+}
+#id1 .owl-carousel .owl-nav {
+  margin-top: 0px;
+}
+#id1 .owl-carousel .owl-nav .owl-prev {
+  background: transparent;
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+}
+#id1 .owl-carousel .owl-nav .owl-prev .fa {
+  font-size: 22pt;
+}
+#id1 .owl-carousel .owl-nav .owl-next {
+  background: transparent;
+  position: absolute;
+  bottom: 45%;
+  right: 5%;
+}
+#id1 .owl-carousel .owl-nav .owl-next .fa {
+  font-size: 22pt;
 }
 #id1 .owl-text-overlay {
   position: absolute;
