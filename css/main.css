@@ -771,7 +771,7 @@ a:active {
     margin-top: 50px;
   }
   #id5 {
-    height: 1500px;
+    height: 1200px;
   }
   #id5 .container #r1 .col-lg-12 h1 {
     font-size: 55px;
@@ -813,9 +813,6 @@ a:active {
 @media only screen and (max-width: 992px) {
   #header {
     width: 750px;
-  }
-  #id5 {
-    height: 1200px;
   }
 }
 /*Ipad Landscape */
