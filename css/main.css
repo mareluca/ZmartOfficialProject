@@ -742,9 +742,6 @@ a:active {
   #header {
     width: 970px;
   }
-  #header .desktop-navigation .desktop-link-list-container ul {
-    margin-right: 50px;
-  }
   #header .desktop-navigation .desktop-link-list-container ul li {
     padding-left: 20px;
   }
@@ -752,7 +749,7 @@ a:active {
     font-size: 13pt;
   }
   #id3 {
-    height: 2000px;
+    height: 800px;
   }
   #id3 .container .row {
     padding-top: 80px;
@@ -764,8 +761,8 @@ a:active {
     padding: 0;
   }
   #id3 .container .row .col-lg-4 .jumbotron .card svg {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
   }
   #id4 {
     height: 600px;
@@ -780,10 +777,16 @@ a:active {
     font-size: 55px;
   }
   #id5 .container #r2 .col-lg-9 {
-    padding-left: 25px;
+    padding-left: 110px;
+  }
+  #id5 .container #r2 .col-lg-9 p {
+    font-size: 12pt;
   }
   #id5 .container #r3 .col-lg-9 {
-    padding-left: 25px;
+    padding-left: 110px;
+  }
+  #id5 .container #r3 .col-lg-9 p {
+    font-size: 12pt;
   }
   #id7 {
     padding-bottom: 50px;
@@ -811,6 +814,9 @@ a:active {
   #header {
     width: 750px;
   }
+  #id5 {
+    height: 1200px;
+  }
 }
 /*Ipad Landscape */
 /*Ipad Portrait*/
@@ -825,6 +831,10 @@ a:active {
   #id3 {
     height: 1800px;
   }
+  #id3 .container .row .col-lg-4 .jumbotron .card svg {
+    width: 30%;
+    height: 30%;
+  }
   #id4 {
     height: 700px;
     text-align: center;
@@ -832,6 +842,21 @@ a:active {
   #id5 {
     text-align: center;
     height: 1800px;
+  }
+  #id5 .container #r1 .col-lg-12 h1 {
+    font-size: 55px;
+  }
+  #id5 .container #r2 .col-lg-9 {
+    padding-left: 25px;
+  }
+  #id5 .container #r2 .col-lg-9 p {
+    font-size: 15pt;
+  }
+  #id5 .container #r3 .col-lg-9 {
+    padding-left: 25px;
+  }
+  #id5 .container #r3 .col-lg-9 p {
+    font-size: 15pt;
   }
   #id6 .container .row .col-lg-12 {
     text-align: center;
@@ -885,4 +910,12 @@ a:active {
   }
 }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+  #id5 .container #r2 .col-lg-9 p {
+    font-size: 14pt;
+  }
+  #id5 .container #r3 .col-lg-9 p {
+    font-size: 14pt;
+  }
+}
 /* Custom, iPhone Retina */
