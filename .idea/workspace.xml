@@ -7,8 +7,6 @@
       <change beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
       <change beforePath="$PROJECT_DIR$/css/workingCss/anaPart.css" afterPath="$PROJECT_DIR$/css/workingCss/anaPart.css" />
       <change beforePath="$PROJECT_DIR$/css/workingCss/anaPart.less" afterPath="$PROJECT_DIR$/css/workingCss/anaPart.less" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/workingHtml/anaPart.html" afterPath="$PROJECT_DIR$/workingHtml/anaPart.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,23 +42,22 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="233" column="42" lean-forward="false" selection-start-line="233" selection-start-column="42" selection-end-line="233" selection-end-column="42" />
+            <state relative-caret-position="525">
+              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
               <folding>
                 <element signature="e#180#1254#0" expanded="false" />
                 <element signature="e#1285#1950#0" expanded="false" />
                 <element signature="e#1960#1979#0" expanded="false" />
-                <element signature="e#2095#3795#0" expanded="false" />
                 <element signature="e#2107#2344#0" expanded="false" />
-                <element signature="e#2353#2695#0" expanded="false" />
-                <element signature="e#2704#2775#0" expanded="false" />
-                <element signature="e#2784#3200#0" expanded="false" />
-                <element signature="e#3209#3241#0" expanded="false" />
-                <element signature="e#3269#3793#0" expanded="false" />
-                <element signature="e#3870#3943#0" expanded="false" />
-                <element signature="e#4322#5544#0" expanded="false" />
-                <element signature="e#5622#6499#0" expanded="false" />
-                <element signature="e#6577#6790#0" expanded="false" />
+                <element signature="e#2510#2852#0" expanded="false" />
+                <element signature="e#2861#2932#0" expanded="false" />
+                <element signature="e#2941#3357#0" expanded="false" />
+                <element signature="e#3366#3398#0" expanded="false" />
+                <element signature="e#3426#3950#0" expanded="false" />
+                <element signature="e#4027#4100#0" expanded="false" />
+                <element signature="e#4479#5701#0" expanded="false" />
+                <element signature="e#5779#6656#0" expanded="false" />
+                <element signature="e#6734#6947#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,8 +66,8 @@
       <file leaf-file-name="anaPart.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/workingCss/anaPart.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+            <state relative-caret-position="450">
+              <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="e#99#1196#0" expanded="false" />
               </folding>
@@ -132,9 +129,9 @@
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/sdsdadsdasdsa.html" />
         <option value="$PROJECT_DIR$/workingHtml/radenkoPart.html" />
-        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/workingHtml/anaPart.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/css/workingCss/anaPart.less" />
       </list>
     </option>
@@ -251,12 +248,12 @@
       <workItem from="1512898641016" duration="3920000" />
       <workItem from="1513001278908" duration="1503000" />
       <workItem from="1513007689526" duration="599000" />
-      <workItem from="1513067541301" duration="17724000" />
+      <workItem from="1513067541301" duration="18368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26759000" />
+    <option name="totallyTimeSpent" value="27403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -362,7 +359,7 @@
         <state relative-caret-position="9345">
           <caret line="623" column="1" lean-forward="true" selection-start-line="546" selection-start-column="0" selection-end-line="623" selection-end-column="1" />
           <folding>
-            <marker date="1513094838458" expanded="true" signature="17447:17805" ph="{...}" />
+            <marker date="1513095485708" expanded="true" signature="17593:17951" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -473,6 +470,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workingHtml/anaPart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
@@ -485,39 +490,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="233" column="42" lean-forward="false" selection-start-line="233" selection-start-column="42" selection-end-line="233" selection-end-column="42" />
+        <state relative-caret-position="525">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
           <folding>
             <element signature="e#180#1254#0" expanded="false" />
             <element signature="e#1285#1950#0" expanded="false" />
             <element signature="e#1960#1979#0" expanded="false" />
-            <element signature="e#2095#3795#0" expanded="false" />
             <element signature="e#2107#2344#0" expanded="false" />
-            <element signature="e#2353#2695#0" expanded="false" />
-            <element signature="e#2704#2775#0" expanded="false" />
-            <element signature="e#2784#3200#0" expanded="false" />
-            <element signature="e#3209#3241#0" expanded="false" />
-            <element signature="e#3269#3793#0" expanded="false" />
-            <element signature="e#3870#3943#0" expanded="false" />
-            <element signature="e#4322#5544#0" expanded="false" />
-            <element signature="e#5622#6499#0" expanded="false" />
-            <element signature="e#6577#6790#0" expanded="false" />
+            <element signature="e#2510#2852#0" expanded="false" />
+            <element signature="e#2861#2932#0" expanded="false" />
+            <element signature="e#2941#3357#0" expanded="false" />
+            <element signature="e#3366#3398#0" expanded="false" />
+            <element signature="e#3426#3950#0" expanded="false" />
+            <element signature="e#4027#4100#0" expanded="false" />
+            <element signature="e#4479#5701#0" expanded="false" />
+            <element signature="e#5779#6656#0" expanded="false" />
+            <element signature="e#6734#6947#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingHtml/anaPart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/workingCss/anaPart.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        <state relative-caret-position="450">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <element signature="e#99#1196#0" expanded="false" />
           </folding>

@@ -55,6 +55,7 @@
 #id1 {
   padding: 0;
   max-height: 685px;
+  overflow: hidden;
 }
 #id1 .owl-carousel .item {
   color: white;
@@ -65,7 +66,7 @@
 #id1 .owl-carousel .owl-nav .owl-prev {
   background: transparent;
   position: absolute;
-  bottom: 45%;
+  bottom: 55%;
   left: 5%;
 }
 #id1 .owl-carousel .owl-nav .owl-prev .fa {
@@ -74,7 +75,7 @@
 #id1 .owl-carousel .owl-nav .owl-next {
   background: transparent;
   position: absolute;
-  bottom: 45%;
+  bottom: 55%;
   right: 5%;
 }
 #id1 .owl-carousel .owl-nav .owl-next .fa {
