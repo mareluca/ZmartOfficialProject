@@ -57,8 +57,26 @@
   max-height: 685px;
   overflow: hidden;
 }
-#id1 .owl-carousel .item {
-  color: white;
+#id1 .owl-carousel .item img {
+  max-height: 1000px;
+}
+#id1 .owl-carousel .item .container {
+  text-align: right;
+  z-index: 1000;
+  position: absolute;
+  top: 550px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#id1 .owl-carousel .item .container .owl-text-overlay {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+#id1 .owl-carousel .item .container h2.owl-title {
+  font-size: 58pt;
+  font-weight: bold;
 }
 #id1 .owl-carousel .owl-nav {
   margin-top: 0px;
@@ -66,42 +84,26 @@
 #id1 .owl-carousel .owl-nav .owl-prev {
   background: transparent;
   position: absolute;
-  bottom: 55%;
+  top: 35%;
   left: 5%;
 }
 #id1 .owl-carousel .owl-nav .owl-prev .fa {
   font-size: 22pt;
 }
+#id1 .owl-carousel .owl-nav .owl-prev .fa:hover {
+  color: snow;
+}
 #id1 .owl-carousel .owl-nav .owl-next {
   background: transparent;
   position: absolute;
-  bottom: 55%;
+  top: 35%;
   right: 5%;
 }
 #id1 .owl-carousel .owl-nav .owl-next .fa {
   font-size: 22pt;
 }
-#id1 .owl-text-overlay {
-  position: absolute;
-  width: 60%;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  text-align: right;
-  top: 650px;
-  padding-bottom: 50px;
-  font-family: Montserrat, sans-serif;
-  font-weight: bold;
-  border-radius: 15px 50px 30px 5px;
-}
-#id1 h2.owl-title {
-  font-size: 58pt;
-  font-weight: bold;
-  margin-bottom: 20px;
+#id1 .owl-carousel .owl-nav .owl-next .fa:hover {
+  color: snow;
 }
 /*ID2 DIV*/
 #id2 {

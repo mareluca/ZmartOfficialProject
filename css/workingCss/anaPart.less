@@ -69,7 +69,31 @@
   .owl-carousel {
 
     .item {
-      color: white;
+      img {
+        max-height: 1000px;
+      }
+
+      .container {
+        text-align: right;
+        z-index: 1000;
+        position: absolute;
+        top: 550px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        .owl-text-overlay {
+
+
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+
+        }
+        h2.owl-title {
+          font-size: 58pt;
+          font-weight: bold;
+        }
+      }
     }
 
     .owl-nav {
@@ -77,12 +101,15 @@
       .owl-prev {
 
         background: transparent;
-       position: absolute;
-        bottom: 55%;
+        position: absolute;
+        top: 35%;
         left: 5%;
         .fa {
 
           font-size: 22pt;
+          &:hover {
+            color: snow;
+          }
         }
       }
 
@@ -90,39 +117,19 @@
 
         background: transparent;
         position: absolute;
-        bottom: 55%;
+        top: 35%;
         right: 5%;
         .fa {
 
           font-size: 22pt;
+
+          &:hover {
+            color: snow;
+          }
         }
       }
     }
 
-  }
-
-  .owl-text-overlay {
-    position: absolute;
-
-    width: 60%;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    color: #fff;
-    text-align: right;
-    top: 650px;
-    padding-bottom: 50px;
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-    border-radius: 15px 50px 30px 5px;
-  }
-  h2.owl-title {
-    font-size: 58pt;
-    font-weight: bold;
-    margin-bottom: 20px;
   }
 
 }
