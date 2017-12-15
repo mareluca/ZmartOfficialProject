@@ -5,12 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/css/main.less" afterPath="$PROJECT_DIR$/css/main.less" />
-      <change beforePath="$PROJECT_DIR$/css/workingCss/anaPart.css" afterPath="$PROJECT_DIR$/css/workingCss/anaPart.css" />
-      <change beforePath="$PROJECT_DIR$/css/workingCss/anaPart.less" afterPath="$PROJECT_DIR$/css/workingCss/anaPart.less" />
-      <change beforePath="$PROJECT_DIR$/css/workingCss/markoPart.css" afterPath="$PROJECT_DIR$/css/workingCss/markoPart.css" />
-      <change beforePath="$PROJECT_DIR$/css/workingCss/markoPart.less" afterPath="$PROJECT_DIR$/css/workingCss/markoPart.less" />
-      <change beforePath="$PROJECT_DIR$/css/workingCss/radenkoPart.less" afterPath="$PROJECT_DIR$/css/workingCss/radenkoPart.less" />
-      <change beforePath="$PROJECT_DIR$/sdsdadsdasdsa.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,15 +30,14 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="452" column="25" lean-forward="false" selection-start-line="452" selection-start-column="25" selection-end-line="452" selection-end-column="25" />
+            <state relative-caret-position="58">
+              <caret line="296" column="15" lean-forward="false" selection-start-line="296" selection-start-column="15" selection-end-line="296" selection-end-column="15" />
               <folding>
                 <element signature="e#180#1277#0" expanded="false" />
                 <element signature="e#2006#2025#0" expanded="false" />
                 <element signature="e#2444#2657#0" expanded="false" />
                 <element signature="e#2666#3008#0" expanded="false" />
                 <element signature="e#3097#3525#0" expanded="false" />
-                <element signature="e#4747#5011#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -205,12 +198,12 @@
       <workItem from="1513151302285" duration="4973000" />
       <workItem from="1513170380865" duration="3878000" />
       <workItem from="1513244305652" duration="2781000" />
-      <workItem from="1513325411719" duration="6121000" />
+      <workItem from="1513325411719" duration="6577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45317000" />
+    <option name="totallyTimeSpent" value="45773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -401,16 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding>
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/workingCss/radenkoPart.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-631">
@@ -447,17 +430,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="452" column="25" lean-forward="false" selection-start-line="452" selection-start-column="25" selection-end-line="452" selection-end-column="25" />
+        <state relative-caret-position="58">
+          <caret line="296" column="15" lean-forward="false" selection-start-line="296" selection-start-column="15" selection-end-line="296" selection-end-column="15" />
           <folding>
             <element signature="e#180#1277#0" expanded="false" />
             <element signature="e#2006#2025#0" expanded="false" />
             <element signature="e#2444#2657#0" expanded="false" />
             <element signature="e#2666#3008#0" expanded="false" />
             <element signature="e#3097#3525#0" expanded="false" />
-            <element signature="e#4747#5011#0" expanded="false" />
           </folding>
         </state>
       </provider>
