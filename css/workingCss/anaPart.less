@@ -7,6 +7,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
   .desktop-navigation {
     height: 150px;
     width: 100%;
@@ -84,7 +86,6 @@
         margin: auto;
         .owl-text-overlay {
 
-
           color: #fff;
           font-family: Montserrat, sans-serif;
 
@@ -138,22 +139,25 @@
 #id2 {
   background: @bgColorId2;
   margin: 0px;
-  padding-top: 13px;
-  padding-bottom: 15px;
+  padding: 0px;
 
-  .list-style {
-    list-style: none;
-    li {
-      float: right;
-      a {
-        #p1 {
-          &:hover {
-            content: url("../img/twitterHover.png");
+  .container {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    .list-style {
+      list-style: none;
+      li {
+        float: right;
+        a {
+          #p1 {
+            &:hover {
+              content: url("../img/twitterHover.png");
+            }
           }
-        }
-        #p2 {
-          &:hover {
-            content: url("../img/facebookHover.png");
+          #p2 {
+            &:hover {
+              content: url("../img/facebookHover.png");
+            }
           }
         }
       }

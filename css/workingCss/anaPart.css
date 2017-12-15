@@ -3,6 +3,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #header .desktop-navigation {
   height: 150px;
@@ -109,19 +111,22 @@
 #id2 {
   background: #4c4c4c;
   margin: 0px;
+  padding: 0px;
+}
+#id2 .container {
   padding-top: 13px;
   padding-bottom: 15px;
 }
-#id2 .list-style {
+#id2 .container .list-style {
   list-style: none;
 }
-#id2 .list-style li {
+#id2 .container .list-style li {
   float: right;
 }
-#id2 .list-style li a #p1:hover {
+#id2 .container .list-style li a #p1:hover {
   content: url("../img/twitterHover.png");
 }
-#id2 .list-style li a #p2:hover {
+#id2 .container .list-style li a #p2:hover {
   content: url("../img/facebookHover.png");
 }
 /* ID3 DIV*/

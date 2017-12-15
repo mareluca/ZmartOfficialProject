@@ -10,18 +10,12 @@
   padding-right: 13px;
   text-align: right;
 }
-#id6 .container .row .col-lg-12 {
-  padding: 0;
-}
 #id6 .container .row .col-lg-12 h1 {
   font-family: 'Montserrat';
   color: #ffffff;
   margin-top: 94px;
   font-size: 55px;
   font-weight: bolder;
-}
-#id6 .container .row .col-lg-6 {
-  padding: 0;
 }
 #id6 .container .row .col-lg-6 p {
   font-family: 'Roboto';
@@ -30,9 +24,6 @@
   margin-top: 52px;
   line-height: 28px;
   text-transform: uppercase;
-}
-#id6 .container .row .col-lg-3 {
-  padding: 0;
 }
 #id6 .container .row .col-lg-3 .btn {
   font-size: 20px;
@@ -47,7 +38,8 @@
   color: #8a8a8a;
 }
 #id7 .container {
-  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #id7 .container .row .col-lg-12 h1 {
   font-family: 'Montserrat';
@@ -65,7 +57,7 @@
 }
 #id7 .container .row .col-lg-12 p {
   font-family: 'Roboto';
-  font-size: 15px;
+  font-size: 13pt;
   line-height: 20px;
   letter-spacing: 1px;
 }
@@ -76,9 +68,6 @@
 .footer-content-wrapper #r2 {
   height: 328px;
   background-color: #333333;
-  padding: 0;
-}
-.footer-content-wrapper #r2 .container {
   padding: 0;
 }
 .footer-content-wrapper #r2 .container .row #logo img {
@@ -137,9 +126,6 @@
 .footer-content-wrapper #r3 {
   height: 54px;
   background-color: #202020;
-}
-.footer-content-wrapper #r3 .container {
-  padding: 0;
 }
 .footer-content-wrapper #r3 .container .row .col-lg-12 {
   padding-top: 20px;

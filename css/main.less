@@ -8,6 +8,8 @@
   position: fixed;
   z-index: 1010;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 55px;
   border-bottom: 1px solid #ededed;
@@ -71,6 +73,8 @@
   position: fixed;
   z-index: 1000;
   top: 55px;
+  left: 0;
+  right: 0;
   display: none;
   overflow: hidden;
   width: 100%;
@@ -107,6 +111,10 @@
   height: 55px;
 }
 
+body {
+  font-family: Montserrat;
+}
+
 //########### end mobile ##########
 
 /* Large Devices, Wide Screens */
@@ -121,29 +129,36 @@
           li {
             padding-left: 20px;
             a {
-      font-size: 13pt;
+              font-size: 13pt;
             }
           }
         }
       }
     }
   }
-#id1{
 
-  .owl-carousel {
+  #id1 {
 
-    .item {
+    .owl-carousel {
 
-      .container {
+      .item {
 
-        top: 75%;
+        .container {
 
+          top: 75%;
+
+          .owl-text-overlay{
+            h2{
+              font-size: 30pt;
+            }
+          }
+
+        }
       }
+
     }
-
-
   }
-}
+
   #id3 {
     height: 800px;
     .container {
@@ -179,14 +194,14 @@
       #r1 {
         .col-lg-12 {
           h1 {
-            font-size: 55px;
+            font-size: 48px;
           }
         }
       }
       #r2 {
         .col-lg-9 {
-padding-left: 110px;
-          p{
+          padding-left: 110px;
+          p {
             font-size: 12pt;
           }
         }
@@ -194,7 +209,7 @@ padding-left: 110px;
       #r3 {
         .col-lg-9 {
           padding-left: 110px;
-          p{
+          p {
             font-size: 12pt;
           }
         }
@@ -250,9 +265,10 @@ padding-left: 110px;
   #header {
     width: 750px;
   }
-  #id5{
 
-    .container{
+  #id5 {
+
+    .container {
 
     }
   }
@@ -269,6 +285,7 @@ padding-left: 110px;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
+
   #header {
     width: auto;
     .desktop-navigation {
@@ -317,7 +334,7 @@ padding-left: 110px;
       #r2 {
         .col-lg-9 {
           padding-left: 25px;
-          p{
+          p {
             font-size: 15pt;
           }
         }
@@ -325,7 +342,7 @@ padding-left: 110px;
       #r3 {
         .col-lg-9 {
           padding-left: 25px;
-          p{
+          p {
             font-size: 15pt;
           }
         }
@@ -415,7 +432,7 @@ padding-left: 110px;
       .row {
         .col-lg-12 {
           h1 {
-            font-size: 22pt;
+            font-size: 14pt;
           }
 
         }
@@ -427,36 +444,48 @@ padding-left: 110px;
       }
     }
   }
+
+  #id7{
+    .container{
+      .row{
+        .col-lg-12{
+          h1{
+            font-size: 25pt;
+          }
+        }
+
+      }
+    }
+  }
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 479px) {
-#id5{
-  .container {
+  #id5 {
+    .container {
 
-    #r2 {
-      .col-lg-9 {
+      #r2 {
+        .col-lg-9 {
 
-        p{
-          font-size: 14pt;
+          p {
+            font-size: 14pt;
+          }
         }
       }
-    }
-    #r3 {
-      .col-lg-9 {
+      #r3 {
+        .col-lg-9 {
 
-        p{
-          font-size: 14pt;
+          p {
+            font-size: 14pt;
+          }
         }
       }
     }
   }
 }
-}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-
-
 
 }
